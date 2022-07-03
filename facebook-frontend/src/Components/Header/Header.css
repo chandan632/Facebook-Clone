@@ -1,0 +1,111 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 10px 10px 8px 10px;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.leftPart{
+    display: flex;
+    /* justify-content: space-between; */
+    flex: 25%;
+}
+
+.facebook-icon{
+    margin: 10px 15px 10px 15px;
+    color: #077CEB;
+    transform: scale(2);
+}
+
+.searchFacebookBox{
+    padding: 5px;
+    background-color: #F0F2F5;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.search-facebook-input{
+    border: none;
+    background-color: inherit;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.search-icon{
+    margin-left: 5px;
+    color: black;
+    opacity: .7;
+}
+
+.search-facebook-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: .7; /* Firefox */
+  }
+
+.search-facebook-input:focus{
+    outline: none;
+}
+
+.middlePart{
+    display: flex;
+    /* justify-content: space-around; */
+    flex: 35%;
+}
+
+.rightPart{
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex: 25%; */
+    flex-direction: row;
+    padding-right: 15px;
+}
+
+.home, .watch, .marketplace, .gaming{
+    transform: scale(1.6);
+    margin: 5px 30px 5px 30px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+}
+
+.home:hover, .watch:hover, .marketplace:hover, .gaming:hover{
+    background-color: #F0F2F5;
+    border-radius: 10px;
+}
+
+.active{
+    color: #1A74E4;
+    border-bottom: 2px solid #1A74E4;
+}
+
+.activeRightPanel{
+    color: #1A74E4;
+}
+
+#tooltip {
+    background: cornsilk;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+.menu, .messenger, .notifications, .profile{
+    transform: scale(1.5);
+    margin: 5px 15px 5px 15px;
+    padding: 5px ;
+    cursor: pointer;
+}
+
+/* @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  } */

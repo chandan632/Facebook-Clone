@@ -1,0 +1,17 @@
+.body{
+    position: absolute;
+    top: 70px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F0F2F5;
+    z-index: -1000;
+    display: flex;
+}
+
+.main-feed{
+    flex: 60%;
+}
+
+.body-rightPanel{
+    flex: 10%;
+}

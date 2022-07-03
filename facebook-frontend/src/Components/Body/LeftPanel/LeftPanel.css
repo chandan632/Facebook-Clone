@@ -1,0 +1,23 @@
+.body-leftPanel{
+    display: flex;
+    flex-direction: column;
+    flex: 10%;
+}
+
+.body-leftPanel > span {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.body-leftPanel > span:hover{
+    background-color: rgb(189, 189, 189);
+}
+
+.body-leftPanel > span > img{
+    padding-right: 10px;
+}
